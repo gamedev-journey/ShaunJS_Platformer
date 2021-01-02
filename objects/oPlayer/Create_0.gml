@@ -2,6 +2,7 @@
 
 horizontal_speed = 0;
 vertical_speed = 0;
-player_gravity = 0.1;
+player_gravity = 0.3;
 walking_speed = 4;
+jump_speed = -7;
 
