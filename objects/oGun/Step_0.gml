@@ -1,4 +1,17 @@
-image_angle = point_direction(x, y, mouse_x, mouse_y);
+if (oPlayer.controller == 0)
+{
+	image_angle = point_direction(x, y, mouse_x, mouse_y);
+}
+else
+{
+	var controllerH = gamepad_axis_value(0, gp_axisrh);
+	var controllerV = gamepad_axis_value(0, gp_axisrv);
+	if (abs(controllerH) > 0.2) || (abs(controllerV) > 0.2)
+	{
+		controllerAngle = point_direction(0, 0, controllerH, controllerV);
+	}
+	image_angle = controllerAngle;
+}
 
 firingDelay -= 1;
 recoil = max(0, recoil - 1);

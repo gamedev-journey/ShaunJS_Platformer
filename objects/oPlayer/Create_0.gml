@@ -6,3 +6,5 @@ player_gravity = 0.3;
 walking_speed = 4;
 jump_speed = -7;
 
+controller = 0;
+
