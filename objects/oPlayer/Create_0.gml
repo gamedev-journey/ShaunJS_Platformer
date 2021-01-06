@@ -8,3 +8,4 @@ jump_speed = -7;
 
 controller = 0;
 
+hasControl = true;
