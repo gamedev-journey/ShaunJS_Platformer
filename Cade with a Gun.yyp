@@ -1,6 +1,7 @@
 {
   "resources": [
     {"id":{"name":"sGun","path":"sprites/sGun/sGun.yy",},"order":4,},
+    {"id":{"name":"fMenu","path":"fonts/fMenu/fMenu.yy",},"order":0,},
     {"id":{"name":"oEnemyDead","path":"objects/oEnemyDead/oEnemyDead.yy",},"order":5,},
     {"id":{"name":"sPlayerRun","path":"sprites/sPlayerRun/sPlayerRun.yy",},"order":2,},
     {"id":{"name":"oCamera","path":"objects/oCamera/oCamera.yy",},"order":6,},
@@ -16,13 +17,16 @@
     {"id":{"name":"oPlayer","path":"objects/oPlayer/oPlayer.yy",},"order":0,},
     {"id":{"name":"sPlayer","path":"sprites/sPlayer/sPlayer.yy",},"order":0,},
     {"id":{"name":"sPlayerJump","path":"sprites/sPlayerJump/sPlayerJump.yy",},"order":3,},
+    {"id":{"name":"sMenuTile","path":"sprites/sMenuTile/sMenuTile.yy",},"order":14,},
     {"id":{"name":"sEnemyDead","path":"sprites/sEnemyDead/sEnemyDead.yy",},"order":9,},
     {"id":{"name":"SlideTransition","path":"scripts/SlideTransition/SlideTransition.yy",},"order":0,},
+    {"id":{"name":"oMenu","path":"objects/oMenu/oMenu.yy",},"order":9,},
     {"id":{"name":"oGun","path":"objects/oGun/oGun.yy",},"order":2,},
     {"id":{"name":"sWall","path":"sprites/sWall/sWall.yy",},"order":1,},
     {"id":{"name":"ScreenShake","path":"scripts/ScreenShake/ScreenShake.yy",},"order":1,},
     {"id":{"name":"oLevelEnd","path":"objects/oLevelEnd/oLevelEnd.yy",},"order":8,},
     {"id":{"name":"rTwo","path":"rooms/rTwo/rTwo.yy",},"order":1,},
+    {"id":{"name":"rMenu","path":"rooms/rMenu/rMenu.yy",},"order":2,},
     {"id":{"name":"sMountain","path":"sprites/sMountain/sMountain.yy",},"order":12,},
     {"id":{"name":"oWall","path":"objects/oWall/oWall.yy",},"order":1,},
     {"id":{"name":"sEnemyRun","path":"sprites/sEnemyRun/sEnemyRun.yy",},"order":8,},
@@ -44,6 +48,7 @@
     "children": [],
   },
   "RoomOrderNodes": [
+    {"roomId":{"name":"rMenu","path":"rooms/rMenu/rMenu.yy",},},
     {"roomId":{"name":"rOne","path":"rooms/rOne/rOne.yy",},},
     {"roomId":{"name":"rTwo","path":"rooms/rTwo/rTwo.yy",},},
   ],
