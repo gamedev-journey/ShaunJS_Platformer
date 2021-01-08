@@ -5,7 +5,10 @@ view_h_half = camera_get_view_height(cam) / 2;
 xTo = xstart;
 yTo = ystart;
 
-shake_length = 60;
-shake_magnitude = 6;
-shake_remain = 6;
+shake_length = 0;
+shake_magnitude = 0;
+shake_remain = 0;
 camera_buffer = 32;
+
+mountainLayer = layer_get_id("Mountains");
+treeLayer = layer_get_id("Trees");
