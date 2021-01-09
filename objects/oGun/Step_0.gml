@@ -21,6 +21,8 @@ if (mouse_check_button(mb_left)) && (firingDelay < 0)
 	recoil = 4;
 	firingDelay = 5;
 	ScreenShake(2, 10);
+	audio_sound_pitch(snShoot, choose(0.8, 1.0, 1.2));
+	audio_play_sound(snShoot, 5, false);
 	with (instance_create_layer(x, y, "Bullets", oBullet))
 	{
 		speed = 25;

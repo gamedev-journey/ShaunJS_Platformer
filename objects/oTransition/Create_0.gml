@@ -1,3 +1,5 @@
+//show_debug_overlay(true);
+
 w = display_get_gui_width();
 h = display_get_gui_height();
 h_half = h / 2;

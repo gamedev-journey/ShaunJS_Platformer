@@ -55,5 +55,6 @@ else
 
 if (horizontal_speed != 0)
 {
-	image_xscale = sign(horizontal_speed);
+	image_xscale = sign(horizontal_speed) * size;
+	image_yscale = size;
 }

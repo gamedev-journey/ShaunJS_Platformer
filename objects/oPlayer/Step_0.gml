@@ -82,6 +82,11 @@ if (!place_meeting(x, y + 1, oWall))
 }
 else
 {
+	if (sprite_index == sPlayerJump)
+	{
+		audio_sound_pitch(snLanding, choose(0.8, 1.0, 1.2));
+		audio_play_sound(snLanding, 4, false);
+	}
 	image_speed = 1;
 	if (horizontal_speed == 0)
 	{

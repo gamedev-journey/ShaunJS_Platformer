@@ -7,7 +7,8 @@ if (hp <= 0)
 		vertical_speed = lengthdir_y(3, direction) - 2;
 		if (sign(horizontal_speed) != 0)
 		{
-			image_xscale = sign(horizontal_speed);
+			image_xscale = sign(horizontal_speed) * other.size;
+			image_yscale = other.size;
 		}
 	}
 	instance_destroy()
